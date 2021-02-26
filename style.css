@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: small;
+}
+
+
+/***** Top Navigation *****/
+
+a {
+	text-decoration: none;
+	color: #3c4043;
+	padding: 10px;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+/***** GOOGLE IMAGE *****/
+
+img {
+	margin-top: 190px;
+}
+
+/***** SEARCH ICON AND BAR *****/
+
+.has-search .form-control {
+	padding-left: 2.800rem;
+	border-radius: 25px;
+	border: 0 1px 6px rgba(32,33,36,.28);
+	border-color: lightgray;
+	height: 45px;
+	width: 100%;
+	color: black;
+	
+}
+
+.has-search .form-control-feedback {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 2.375rem;
+	height: 2.375rem;
+	line-height: 2.375rem;
+	padding-top: 5px;
+	font-size: small;
+	text-align: center;
+	text-indent: 10px;
+	pointer-events: none;
+	color: gray;
+}
+
+input {
+	font: 400 13.3333px Arial;
+}
+
+.main {
+	width: 600px;
+	margin: 25px auto;
+}
+
+.has-search .form-control:active,
+.has-search .form-control:focus,
+.has-search .form-control:hover {
+	box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+/***** Buttons ******/
+
+.button {
+	padding: 0 16px;
+	margin: 11px 4px;
+	height: 36px;
+	min-width: 54px;
+	background-color: #f8f9fa;
+	border-style: none;
+	border-radius: 4px;
+	cursor: pointer;
+	color: #3c4043;
+}
+
+.button:hover {
+	box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+/***** Bottom Navigation ******/
+
+.navbar.bot {
+	background-color: #f2f2f2;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	line-height: 25px;
+	border-top: 1px solid #dadce0;
+}
+
+.navbar.bot a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding: 10px;
+	font-size: 15px;
+	
+}
+
+.navbar.bot a:hover {
+	text-decoration: underline;
+}
+
+/***** canada navbar *******/
+
+.navbar2 {
+	background-color: #f2f2f2;
+	overflow: hidden;
+	position: fixed;
+	bottom: 43px;
+	line-height: 40px;
+	
+	width: 100%;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.navbar2 a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding: 10px;
+	font-size: 15px;
+	cursor: default;
+}
+
+
