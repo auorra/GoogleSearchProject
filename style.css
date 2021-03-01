@@ -39,9 +39,7 @@ a:hover {
 	border: 1px solid #4285f4;
 	outline: none;
 	background: #4285f4;
-	background: -webkit-linear-gradient(top, #4387fd, #4683ea);
-	background: -o-linear-gradient(top, #4387fd, #4683ea);
-	background: -moz-linear-gradient(top, #4387fd, #4683ea);
+	background: linear-gradient(top, #4387fd, #4683ea);
 }
 
 a.signButton {
